@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>PainterSearch</title>
+	<link rel="stylesheet" href="css/index.css">
+    <script type="text/javascript" charset="utf-8" src="cordova-2.2.0.js"></script>
+    <script src="js/jquery-1.7.2.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <link href="css/lightbox.css" rel="stylesheet" />
+</head>
+
+<body>
+<br>
+<img src="img/paintersearch.jpg" alt="paintersearch" width="200" height="97"><br><br>
+
+<div id="scroll">
+<script>
+if (window.XMLHttpRequest)
+  {// code for IE7+, Firefox, Chrome, Opera, Safari
+  xmlhttp=new XMLHttpRequest();
+  }
+else
+  {// code for IE6, IE5
+  xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+xmlhttp.open("GET","js/artist.xml",false);
+xmlhttp.send();
+xmlDoc=xmlhttp.responseXML; 
+
+var x=xmlDoc.getElementsByTagName("index");
+for (i=0;i<x.length;i++)
+  { 
+  document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue + "<br>");
+  document.write(x[i].getElementsByTagName("description")[0].childNodes[0].nodeValue + "<br>");
+  document.write(x[i].getElementsByTagName("artwork")[0].childNodes[0].nodeValue + "<br><br>");
+  }
+</script>
+</div>
+<a href="artist.html"><button>Back</button></a>
+</body>
+</html>

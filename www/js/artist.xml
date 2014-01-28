@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<indices>
+	<index>
+		<name><![CDATA[ Edward Hopper ]]></name>
+		<description><![CDATA[ shapes, geometric, sharp edges  ]]></description>
+		<artwork><![CDATA[ <a href="images/morningsun.jpg" rel="lightbox">Morning Sun</a> ]]></artwork>
+	</index>
+	<index>
+		<name><![CDATA[ Paul Cezanne ]]></name>
+		<description><![CDATA[ still life, simple forms, soft edges ]]></description>
+		<artwork><![CDATA[ <a href="images/stillapples.jpg" rel="lightbox">Still Life with Apples</a> ]]></artwork>
+	</index>
+	<index>
+		<name><![CDATA[ Mark Ryden ]]></name>
+		<description><![CDATA[ still life, animation, geometric ]]></description>
+		<artwork><![CDATA[ <a href="images/goodbyebear.jpg" rel="lightbox">Goodbye Bear</a> ]]></artwork>
+	</index>
+    <index>
+		<name><![CDATA[ Henri Matisse ]]></name>
+		<description><![CDATA[ color relationships, still life ]]></description>
+		<artwork><![CDATA[ <a href="images/fruitcoffee.jpg" rel="lightbox">Fruit and Coffeepot</a> ]]></artwork>
+	</index>
+    <index>
+		<name><![CDATA[ Jasper Johns ]]></name>
+		<description><![CDATA[ color relationships ]]></description>
+		<artwork><![CDATA[ <a href="images/map.jpg" rel="lightbox">Map</a> ]]></artwork>
+	</index>
+    <index>
+		<name><![CDATA[ Robert Diebenkorn ]]></name>
+		<description><![CDATA[ color relationships, still life, abstract ]]></description>
+		<artwork><![CDATA[ <a href="images/stillorange.jpg" rel="lightbox">Still Life with Orange Peel</a> ]]></artwork>
+	</index>
+    <index>
+		<name><![CDATA[ Anselm Kiefer ]]></name>
+		<description><![CDATA[ texture, abstract ]]></description>
+		<artwork><![CDATA[ <a href="images/woodenroom.jpg" rel="lightbox">Wooden Room</a> ]]></artwork>
+	</index>
+    <index>
+		<name><![CDATA[ Pablo Picasso ]]></name>
+		<description><![CDATA[ portraits, color relationships ]]></description>
+		<artwork><![CDATA[ <a href="images/childove.jpg" rel="lightbox">Child with Dove</a> ]]></artwork>
+	</index>
+</indices>
